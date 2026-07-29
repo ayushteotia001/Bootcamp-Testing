@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-29T02:08:13 IST" name="SauceDemo Suite" finished-at="2026-07-29T02:08:22 IST" duration-ms="8127">
+    <groups>
+    </groups>
+    <test started-at="2026-07-29T02:08:13 IST" name="SauceDemo Tests" finished-at="2026-07-29T02:08:22 IST" duration-ms="8127">
+      <class name="com.saucedemo.testcases.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.saucedemo.testcases.LoginTest@f68f0dc]" started-at="2026-07-29T02:08:14 IST" name="setup" finished-at="2026-07-29T02:08:16 IST" duration-ms="2293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLogin()[pri:0, instance:com.saucedemo.testcases.LoginTest@f68f0dc]" started-at="2026-07-29T02:08:16 IST" name="verifyLogin" finished-at="2026-07-29T02:08:16 IST" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.testcases.LoginTest@f68f0dc]" started-at="2026-07-29T02:08:16 IST" name="tearDown" finished-at="2026-07-29T02:08:16 IST" duration-ms="195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=LoginTest.verifyLogin()[pri:0, instance:com.saucedemo.testcases.LoginTest@f68f0dc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucedemo.testcases.LoginTest -->
+      <class name="com.saucedemo.testcases.AddToCartTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.saucedemo.testcases.AddToCartTest@3e78b6a5]" started-at="2026-07-29T02:08:16 IST" name="setup" finished-at="2026-07-29T02:08:18 IST" duration-ms="1073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyAddToCart()[pri:0, instance:com.saucedemo.testcases.AddToCartTest@3e78b6a5]" started-at="2026-07-29T02:08:18 IST" name="verifyAddToCart" finished-at="2026-07-29T02:08:18 IST" duration-ms="474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.testcases.AddToCartTest@3e78b6a5]" started-at="2026-07-29T02:08:18 IST" name="tearDown" finished-at="2026-07-29T02:08:18 IST" duration-ms="184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddToCart status=SUCCESS method=AddToCartTest.verifyAddToCart()[pri:0, instance:com.saucedemo.testcases.AddToCartTest@3e78b6a5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucedemo.testcases.AddToCartTest -->
+      <class name="com.saucedemo.testcases.LogoutTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.saucedemo.testcases.LogoutTest@769a1df5]" started-at="2026-07-29T02:08:18 IST" name="setup" finished-at="2026-07-29T02:08:19 IST" duration-ms="1093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLogout()[pri:0, instance:com.saucedemo.testcases.LogoutTest@769a1df5]" started-at="2026-07-29T02:08:19 IST" name="verifyLogout" finished-at="2026-07-29T02:08:21 IST" duration-ms="2065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogout -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.testcases.LogoutTest@769a1df5]" started-at="2026-07-29T02:08:21 IST" name="tearDown" finished-at="2026-07-29T02:08:22 IST" duration-ms="204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogout status=SUCCESS method=LogoutTest.verifyLogout()[pri:0, instance:com.saucedemo.testcases.LogoutTest@769a1df5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucedemo.testcases.LogoutTest -->
+    </test> <!-- SauceDemo Tests -->
+  </suite> <!-- SauceDemo Suite -->
+</testng-results>
